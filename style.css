@@ -1,5 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Product+Sans');
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #fd0000ad;
+    justify-content: center;
+    
 }
+
+#bloque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 70%;
+    height: 70%;
+    background-color: white;
+}
+
+img {
+    width: 70%;
+    height: width;
+}
+
+h1 {
+    font-family: 'Product Sans';
+    text-align: center;
+    padding: 10%;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Product Sans';
+   }
